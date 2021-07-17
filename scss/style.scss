@@ -242,7 +242,7 @@ align-content: stretch;
       align-items: center;
       width:255px;
       height: 66px;
-      background: url('img/green-button.png');
+      background: url(/img/green-button.png);
       margin-top: 43px;
        font-family: 'OfficinaSerifC';
       color: #fff;
@@ -300,7 +300,7 @@ align-content: stretch;
         display: block;
           width: 18px;
           height: 5px;
-          background: url('img/arrow.png') no-repeat center;
+          background: url('/img/arrow.png') no-repeat center;
           margin: 0 8px 0 10px;
           
       }
@@ -636,7 +636,7 @@ text-align: center;
   .house-video{
     position: relative;
     display: block;
-    background: url('img/description/video.png');
+    background: url('/img/description/video.png');
     width: 540px;
     height: 364px;
     .video-back{  
