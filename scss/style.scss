@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'OfficinaSerifC';
-    src: url('fonts/OfficinaSerifC-Bold.woff2') format('woff2'),
-        url('fonts/OfficinaSerifC-Bold.woff') format('woff');
+    src: url('/fonts/OfficinaSerifC-Bold.woff2') format('woff2'),
+        url('/fonts/OfficinaSerifC-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: 'PT Sans';
-    src: url('fonts/PTSans-Regular.woff2') format('woff2'),
-        url('fonts/PTSans-Regular.woff') format('woff');
+    src: url('/fonts/PTSans-Regular.woff2') format('woff2'),
+        url('/fonts/PTSans-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -19,8 +19,8 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('fonts/Roboto-Regular.woff2') format('woff2'),
-        url('fonts/Roboto-Regular.woff') format('woff');
+    src: url('/fonts/Roboto-Regular.woff2') format('woff2'),
+        url('/fonts/Roboto-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -29,8 +29,8 @@
 
 @font-face {
     font-family: 'Roboto Lt';
-    src: url('fonts/Roboto-Light.woff2') format('woff2'),
-        url('fonts/Roboto-Light.woff') format('woff');
+    src: url('/fonts/Roboto-Light.woff2') format('woff2'),
+        url('/fonts/Roboto-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -55,7 +55,7 @@ align-content: stretch;
    order: 0;
    flex: 0 1 auto;
    align-self: auto; 
-   background: url('img/sidebar.png')#503314 no-repeat center top;
+   background: url('/img/sidebar.png')#503314 no-repeat center top;
    background-size: cover;
    width: 263px;
    height:  4195px;
@@ -242,7 +242,7 @@ align-content: stretch;
       align-items: center;
       width:255px;
       height: 66px;
-      background: url(/img/green-button.png);
+      background: url('/img/green-button.png');
       margin-top: 43px;
        font-family: 'OfficinaSerifC';
       color: #fff;
@@ -358,6 +358,18 @@ align-content: stretch;
   width:780px;
   height: 150px;
 
+.flickity-button {
+  margin-top: 10px;
+  background: transparent;
+}
+
+.flickity-prev-next-button  {
+  .arrow{
+    color:#006022;
+  }
+}
+  
+
 .flickity-viewport{
 
   display: flex;
@@ -384,7 +396,8 @@ align-content: stretch;
 
 /* cell number */
 
-  
+
+
 }
 
 }
@@ -456,7 +469,7 @@ align-content: stretch;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background: url('img/price1.png') no-repeat center;
+    background: url('/img/price1.png') no-repeat center;
     font-family: 'OfficinaSerifC';
    font-size: 30px;
    font-weight: bold;
@@ -470,7 +483,7 @@ align-content: stretch;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background: url('img/price2.png') no-repeat center;
+    background: url('/img/price2.png') no-repeat center;
     font-family: 'OfficinaSerifC';
    font-size: 30px;
    font-weight: bold;
@@ -787,7 +800,7 @@ footer{
     @media (max-width: 1200px) {
       
 .page-sidebar{
-  background: url('img/sidebar.png')#503314 no-repeat center top;
+  background: url('/img/sidebar.png')#503314 no-repeat center top;
   background-size: cover;
   width: 219px;
   position: relative;
@@ -888,7 +901,7 @@ height: 3616px;
       align-items: center;
       width:255px;
       height: 66px;
-      background: url('img/green-button.png');
+      background: url('/img/green-button.png');
       margin-top: 43px;
        font-family: 'OfficinaSerifC';
       color: #fff;
@@ -1192,7 +1205,7 @@ height: 3616px;
           display: flex;
           flex-direction: row;
           justify-content: space-between;
-          background: url('img/sidebar320.png') no-repeat center;
+          background: url('/img/sidebar320.png') no-repeat center;
           width: 320px;
           height: 80px;
           position: relative;
@@ -1298,7 +1311,7 @@ height: 3616px;
         }
 
           .sidebar-menu{
-           background:url(img/sidebar1200.png);
+           background:url(/img/sidebar1200.png);
             height: 400px;
           }
         .page-content{
@@ -1565,7 +1578,7 @@ height: 3616px;
                 flex-direction: column-reverse;
                 .house-video{
                   margin-left: 7px;
-                  background: url('img/video306.png')no-repeat center;
+                  background: url('/img/video306.png')no-repeat center;
                   width: 306px;
                   height: 206px;
                   .video-back{
