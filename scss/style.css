@@ -54,7 +54,7 @@
             flex: 0 1 auto;
     -ms-flex-item-align: auto;
         align-self: auto;
-    background: url("/img/sidebar.png") #503314 no-repeat center top;
+    background: url("img/sidebar.png") #503314 no-repeat center top;
     background-size: cover;
     width: 263px;
     height: 4195px;
@@ -217,7 +217,7 @@
               align-items: center;
       width: 255px;
       height: 66px;
-      background: url("/img/green-button.png");
+      background: url("img/green-button.png");
       margin-top: 43px;
       font-family: 'OfficinaSerifC';
       color: #fff;
@@ -275,7 +275,7 @@
           display: block;
           width: 18px;
           height: 5px;
-          background: url("/img/arrow.png") no-repeat center;
+          background: url("img/arrow.png") no-repeat center;
           margin: 0 8px 0 10px; }
     .page .page-content .content-title {
       margin-top: 24px;
@@ -450,7 +450,7 @@
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
-        background: url("/img/price1.png") no-repeat center;
+        background: url("img/price1.png") no-repeat center;
         font-family: 'OfficinaSerifC';
         font-size: 30px;
         font-weight: bold;
@@ -471,7 +471,7 @@
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
-        background: url("/img/price2.png") no-repeat center;
+        background: url("img/price2.png") no-repeat center;
         font-family: 'OfficinaSerifC';
         font-size: 30px;
         font-weight: bold;
@@ -631,7 +631,7 @@
         .page .page-content .description-project .description-house .house-video {
           position: relative;
           display: block;
-          background: url("/img/description/video.png");
+          background: url("img/description/video.png");
           width: 540px;
           height: 364px; }
           .page .page-content .description-project .description-house .house-video .video-back img {
@@ -762,7 +762,7 @@
             padding-top: 11px; }
   @media (max-width: 1200px) {
     .page .page-sidebar {
-      background: url("/img/sidebar.png") #503314 no-repeat center top;
+      background: url("img/sidebar.png") #503314 no-repeat center top;
       background-size: cover;
       width: 219px;
       position: relative;
@@ -863,7 +863,7 @@
                     align-items: center;
             width: 255px;
             height: 66px;
-            background: url("/img/green-button.png");
+            background: url("img/green-button.png");
             margin-top: 43px;
             font-family: 'OfficinaSerifC';
             color: #fff;
@@ -1073,7 +1073,7 @@
         -webkit-box-pack: justify;
             -ms-flex-pack: justify;
                 justify-content: space-between;
-        background: url("/img/sidebar320.png") no-repeat center;
+        background: url("img/sidebar320.png") no-repeat center;
         width: 320px;
         height: 80px;
         position: relative; }
@@ -1144,7 +1144,7 @@
         .page .page-sidebar .sidebar-content .hamburger-text {
           display: none; }
       .page .sidebar-menu {
-        background: url(/img/sidebar1200.png);
+        background: url(img/sidebar1200.png);
         height: 400px; }
       .page .page-content {
         margin-left: 0;
@@ -1340,7 +1340,7 @@
                     flex-direction: column-reverse; }
             .page .page-content .description-project .description-house .house-video {
               margin-left: 7px;
-              background: url("/img/video306.png") no-repeat center;
+              background: url("img/video306.png") no-repeat center;
               width: 306px;
               height: 206px; }
               .page .page-content .description-project .description-house .house-video .video-back img {
